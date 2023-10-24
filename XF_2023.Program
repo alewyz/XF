@@ -1,0 +1,20 @@
+public class Program
+{
+    static void Main(string[] args)
+    {
+       Car Ford = new Car();
+       Car Opel = new Car();
+       Ford.name = "Mustang";
+       Ford.color = "white";  
+       Ford.year = 2021;
+       Ford.maxSpeed = 100;
+
+       Opel.name = "Astra";
+       Opel.color = "blue";  
+       Opel.year = 2022;
+       Opel.maxSpeed = 120;
+
+
+
+
+       
