@@ -1,0 +1,12 @@
+public class Car
+{
+      public string color; 
+      public string name; 
+      public int maxSpeed; 
+      public int year;
+
+      public void fullThrottle()
+         {
+           Console.WriteLine(name + "is going at the speed of" + maxSpeed);
+         }
+}
